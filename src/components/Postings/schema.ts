@@ -12,6 +12,7 @@ const schema: SchemaDefinition<Posting> = {
     ],
   },
   postingId: { type: 'text', label: 'Posting Id', defaultValue: '' },
+  employeeId: { type: 'text', label: 'Employee Id', defaultValue: '' },
   title: { type: 'text', label: 'Title', defaultValue: '' },
   blurb: { type: 'textarea', label: 'Blurb', defaultValue: '' },
   closingDate: { type: 'date', label: 'Closing Date', defaultValue: '' },
