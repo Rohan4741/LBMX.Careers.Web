@@ -70,8 +70,8 @@ export default function Form({
         </div>
       ))}
       <div className="form-controls">
-        <button>Save</button>
         <button onClick={handleCancel}>Cancel</button>
+        <button>Save</button>
       </div>
     </form>
   );

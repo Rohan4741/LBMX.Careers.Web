@@ -2,6 +2,8 @@
 
 .content {
   padding: 2em;
+  font-weight: bold;
+ 
 }
 
 // table styles
@@ -10,7 +12,7 @@
 }
 
 .div-row {
-  display: table-row;
+  display: inline-block;
   &.header {
     font-weight: bold;
   }
@@ -19,6 +21,75 @@
 .div-cell {
   display: table-cell;
   padding: 0.5em;
+  
 }
 
 // form styles
+
+// Desktop style
+.form {
+  width: 50%;
+}
+
+button {
+  margin-right: 8px;
+  position: relative;
+  left: 42%; 
+  
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.form-input {
+  margin-bottom: 16px;
+  
+ }
+
+label {
+  margin-bottom: 4px;
+  display: block;
+}
+
+input, textarea, select{
+  width: 50%;
+}
+
+// Mobile style
+
+@media (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+}
+
+button {
+  margin-right: 8px;
+  display: inline-block;
+  justify-content: auto;
+  align-items: auto;
+  
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.form-input {
+  margin-bottom: 16px;
+  
+ }
+
+label {
+  margin-bottom: 4px;
+  display: block;
+}
+
+input, textarea, select{
+  width: 50%;
+}
+
+
+
+
